@@ -6,7 +6,7 @@ const BottomNav = () => {
     <nav className="fixed bottom-0 left-0 right-0 bg-background border-t border-border z-50">
       <div className="max-w-md mx-auto flex justify-around items-center h-16">
         <NavLink
-          to="/"
+          to="/home"
           className="flex flex-col items-center justify-center gap-1 px-4 py-2 text-muted-foreground transition-colors"
           activeClassName="text-primary"
         >
