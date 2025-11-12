@@ -1,3 +1,4 @@
+import { useAuth } from "@/hooks/useAuth";
 import { Bell, ChevronRight } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,6 +13,8 @@ const Home = () => {
     arrival: "15:05",
     vehicleType: "motorcycle",
   };
+
+  
 
   return (
     <div className="min-h-screen bg-background pb-20">
